@@ -11,9 +11,9 @@ export default function TabTwoScreen() {
 			headerBackgroundColor={{ light: '#D0D0D0', dark: '#353636' }}
 			headerImage={<Ionicons size={310} name="code-slash" style={styles.headerImage} />}>
 			<ThemedView style={styles.titleContainer}>
-				<ThemedText type="title">Journeys</ThemedText>
+				<ThemedText type="title">Goals</ThemedText>
 			</ThemedView>
-			<ThemedText>Create journeys to organise your quests in Marcel</ThemedText>
+			<ThemedText>Add your goals in Marcel to track your progress and earn rewards upon completion</ThemedText>
 		</ParallaxScrollView>
 	);
 }
